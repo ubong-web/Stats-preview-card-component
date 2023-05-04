@@ -112,15 +112,4 @@ img {
   font-weight: bold;
 }
 
-@media only screen and (max-width: 425px) {
-  body {
-    text-align: center;
-  }
 
-  .content {
-    grid-template-columns: 1fr;
-  }
-
-  .img-container {
-  }
-}
