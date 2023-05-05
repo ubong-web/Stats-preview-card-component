@@ -114,8 +114,3 @@ p {
 .accent {
   color: var(--accent);
 }
-
-ul {
-  list-style: none;
-  color: var(--main-heading);
-}
