@@ -114,3 +114,18 @@ p {
 .accent {
   color: var(--accent);
 }
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  color: var(--main-heading);
+  list-style: none;
+}
+
+li {
+  text-transform: capitalize;
+}
