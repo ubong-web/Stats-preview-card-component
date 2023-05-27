@@ -107,28 +107,20 @@ main {
 }
 .preview-card-image {
   grid-area: img;
-  position: relative;
-}
-.preview-card-image::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
   background-color: hsl(277, 64%, 61%);
-  mix-blend-mode: multiply; /* Adjust blend mode as per your requirement */
 }
 
 .preview-card-image img {
   width: 100%;
+  mix-blend-mode: multiply;
+  opacity: 0.7;
 }
 h1 {
   color: var(--main-heading);
 }
 p {
   color: var(--main-paragraph);
-  padding-top: 10px;
+  margin-top: 10px;
 }
 .accent {
   color: var(--accent);
@@ -167,7 +159,7 @@ li {
     /* max-width: 30rem; */
     grid-template-areas: "img" "text";
     border-radius: 15%;
-    max-width: 60%;
+    max-width: 20rem;
     margin-top: 30px;
     margin-bottom: 30px;
   }

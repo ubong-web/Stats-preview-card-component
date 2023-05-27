@@ -55,19 +55,4 @@ I building the project, i learn more about css grid and flex box as well as acce
 ```
 
 
-
-
-
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/ubong-web)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-I apprecaise Grace snow if the front end mentor team and moderator for insights and advice as i worked on these project.
-
 ```
