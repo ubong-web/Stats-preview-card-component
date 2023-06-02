@@ -92,18 +92,21 @@ main {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  border-radius: 10px;
 }
 .component {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "text img";
   max-width: 800px;
+  border-radius: 10px;
 }
 .preview-card-text {
   background-color: var(--card-background);
   padding: 35px 40px;
   grid-area: text;
   font-size: 15px;
+  border-radius: 10px 0px 0px 10px;
 }
 .preview-card-image {
   grid-area: img;
@@ -141,6 +144,7 @@ strong {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
 }
 li {
   list-style: none;
