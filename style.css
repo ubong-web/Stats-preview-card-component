@@ -165,8 +165,7 @@ li {
     grid-template-areas: "img" "text";
     border-radius: 15%;
     max-width: 20rem;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 30px;
   }
 
   .info {
