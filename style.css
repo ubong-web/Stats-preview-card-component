@@ -100,12 +100,13 @@ main {
   grid-template-areas: "text img";
   max-width: 50rem;
   border-radius: 10px;
+  overflow: hidden;
 }
 .preview-card-text {
   background-color: var(--card-background);
   padding: 35px 40px;
   grid-area: text;
-  font-size: 15px;
+  font-size: 1rem;
   border-radius: 10px 0px 0px 10px;
 }
 .preview-card-image {
@@ -117,13 +118,17 @@ main {
   width: 100%;
   mix-blend-mode: multiply;
   opacity: 0.7;
+  height: 100%;
+  object-fit: cover;
 }
 h1 {
   color: var(--main-heading);
+  font-family: "Lexend Deca", sans-serif;
 }
 p {
   color: var(--main-paragraph);
   margin-top: 10px;
+  font-family: "Inter", sans-serif;
 }
 .accent {
   color: var(--accent);
@@ -163,9 +168,10 @@ li {
     grid-template-columns: 1fr;
     /* max-width: 30rem; */
     grid-template-areas: "img" "text";
-    border-radius: 15%;
+    /* border-radius: 15%; */
     max-width: 20rem;
     margin: 30px;
+    overflow: hidden;
   }
 
   .info {
